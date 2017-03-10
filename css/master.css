@@ -64,7 +64,8 @@ li a:hover {
 	float:inherit;
 }
 
-#test{
-	float: right;
-	top: -200px;
+.gallery{
+	width:auto;
+	height: 500px;
+	overflow:hidden;
 }
