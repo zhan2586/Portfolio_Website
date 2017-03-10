@@ -66,9 +66,8 @@ li a:hover {
 
 .gallery img{
 	width:auto;
-	height: 270px;
+	height: 280px;
 	float: left;
-	padding: 5px 5px 5px 5px;
-	margin: auto;
+	padding: 6px 6px 6px 6px;
 
 }
