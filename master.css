@@ -1,0 +1,70 @@
+body{
+	background-color:black;
+}
+
+h1{
+	color:white;
+	font-family: "Segoe UI Semibold", Segoe, sans-serif;
+
+}
+
+h4{
+	color:white;
+	font-family: "Segoe UI Light", Segoe, sans-serif;
+	float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding
+    overflow: hidden;
+    background-color: black;
+		top: -100px;
+}
+
+#design_projects{
+	font-size: 5;
+}
+
+li {
+    float: left;
+		font-family: "Segoe UI Semibold", Segoe, sans-serif;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+	text-decoration:inherit
+}
+
+li a:hover {
+    color: red;
+}
+
+.active {
+    color: red;
+		float:right;
+
+}
+
+#bio{
+	color: white;
+	float:right;
+	padding-left: 600;
+}
+
+#email{
+	color: white;
+}
+
+.mobile-app-content{
+	float:inherit;
+}
+
+#test{
+	float: right;
+	top: -200px;
+}
