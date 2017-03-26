@@ -2,72 +2,178 @@ body{
 	background-color:black;
 }
 
-h1{
-	color:white;
+.container {
+    margin:0px auto;
+	width:1280px;
+	height:auto;
+	text-align:center;	
+}
+
+.banner{
+	width:240px;
+	height:60px;
+	margin:10px 0px 10px 0px;
+	padding:20px 0px 10px 0px;
+}
+
+.cover{
+	position: static;
+	margin-top:10px;
+}
+
+nav{
+	float:right;
+}
+
+nav ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+nav li {
+    display:inline-block;
 	font-family: "Segoe UI Semibold", Segoe, sans-serif;
-
+	font-size:14px;
+	margin-left:1px;
+	margin-right:30px;
+	padding-top:46px;
+	padding-right:0px;
 }
 
-h4{
-	color:white;
-	font-family: "Segoe UI Light", Segoe, sans-serif;
-	float: left;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding
-    overflow: hidden;
-    background-color: black;
-		top: -100px;
-}
-
-#design_projects{
-	font-size: 5;
-}
-
-li {
-    float: left;
-		font-family: "Segoe UI Semibold", Segoe, sans-serif;
-}
-
-li a {
-    display: block;
+nav li a {
     color: white;
     text-align: center;
-    padding: 10px 15px;
-	text-decoration:inherit
+  	text-decoration:inherit
 }
 
-li a:hover {
+nav li a:hover {
     color: red;
 }
 
-.active {
+nav li a:active {
     color: red;
-		float:right;
+}
 
+.showreel{
+	position: static;
+    margin: 100px 10px 10px 200px;
+}
+
+#video-a {
+	position:relative;
+	float:left;
+    margin: 30px 0px 10px 200px;
+    border:0px solid #ccc;
+}
+
+#video-b {
+	position:relative;
+	float:left;
+    margin: 30px 0px 10px 10px;
+    border:0px solid #ccc;
+}
+
+#video-c {
+	clear:both;
+	position:relative;
+	float:left;
+    margin: 10px 0px 10px 200px;
+    border:0px solid #ccc;
+}
+
+#video:hover {
+    border: 1px solid #777;
+}
+
+#design_projects li{
+   float:left;
+	 list-style:none;
+ 	margin:0;
+ 	padding:60px 0px 0px 150px;
+}
+
+#design_projects li a {
+    color: white;
+    text-align: center;
+  	text-decoration:inherit
+}
+
+#design_projects li a:hover {
+    color: red;
 }
 
 #bio{
-	color: white;
+	position: static;
+	left:800px;
+	color:white;
 	float:right;
-	padding-left: 600;
+	margin-left: 100px 10px 100px 10px;
+	padding-left: 10px 0px 0px 10px;
 }
 
 #email{
+	clear:both;
 	color: white;
+	margin-top: 200px;
+}
+
+#design_projects{
+	display:inline-block;
+font-family: "Segoe UI Semibold", Segoe, sans-serif;
+font-size:13px;
+margin-left:1px;
+margin-right:30px;
+padding-top:46px;
+padding-right:0px;
 }
 
 .mobile-app-content{
 	float:inherit;
+	margin-bottom: 300px;
 }
 
-.gallery img{
-	width:auto;
-	height: 280px;
-	float: left;
-	padding: 6px 6px 6px 6px;
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+}
 
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+#myself-pic{
+	position: static;
+	left:200px;
+	margin-left: 100px;
+	margin-right: 10px;
+	padding-left: 100px;
+}
+
+#icons{
+	clear:both;
+	
+}
+
+footer{
+	position:fixed;
+	bottom:1px;
+	padding-top: 5px;
+	padding-left:540px;
+	text-align: center;
+    color: gray;
+	font-family: "Segoe UI Semibold", Segoe, sans-serif;
+	font-size:13px;
 }
