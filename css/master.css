@@ -6,7 +6,7 @@ body{
     margin:0px auto;
 	width:1280px;
 	height:auto;
-	text-align:center;	
+	text-align:center;
 }
 
 .banner{
@@ -14,6 +14,10 @@ body{
 	height:60px;
 	margin:10px 0px 10px 0px;
 	padding:20px 0px 10px 0px;
+}
+
+h4{
+	color: white;
 }
 
 .cover{
@@ -56,8 +60,8 @@ nav li a:active {
 }
 
 .showreel{
-	position: static;
-    margin: 100px 10px 10px 200px;
+	  position: static;
+    top:200px;
 }
 
 #video-a {
@@ -164,7 +168,7 @@ padding-right:0px;
 
 #icons{
 	clear:both;
-	
+
 }
 
 footer{
