@@ -18,6 +18,7 @@ body{
 
 h4{
 	color: white;
+	text-align: center;
 }
 
 .cover{
@@ -57,18 +58,48 @@ nav li a:hover {
 
 nav li a:active {
     color: red;
+		opacity: 0.6;
+}
+
+#home-menu{
+	color: red;
+}
+
+#showreel-menu{
+	color: red;
+}
+
+#vfx-menu{
+	color: red;
+}
+
+#design-menu{
+	color: red;
+}
+
+#photo-menu{
+	color: red;
+}
+
+#about-menu{
+	color: red;
+}
+
+#contact-menu{
+	color: red;
 }
 
 .showreel{
 	margin: auto;
-    width: 50%;
-    border: 0px solid green;
-    padding: 0px;
+	    width: 52%;
+	    border: 0px solid green;
+	    padding: 0px;
 }
 
 #sheet{
 	text-align: center;
 	margin:20px 0px 0px 0px;
+	font-family: "Segoe UI Light", Segoe, sans-serif;
 }
 
 #sheet a:link {
@@ -110,10 +141,10 @@ nav li a:active {
 
 .floating-box {
     display: inline-block;
-    width: 650px;
-    height: 250px;
-    margin: 0px 40px 10px 60px;
-    border: 0px solid #73AD21;  
+    width: 550px;
+    height: 450px;
+    margin: 0px 10px 10px 20px;
+    border: 0px solid #73AD21;
 }
 
 
@@ -138,19 +169,30 @@ nav li a:active {
     color: red;
 }
 
+#myself-pic{
+	float: left;
+	left: 500px;
+	margin: 50px 20px 20px 30px;
+	padding-left: 400px;
+}
+
 #bio{
-	width:20%;
-	float:right;
-	color:white;
-	margin: auto;
-	border: 1px #FF0000;
-	padding: 10px 0px 0px 10px;
+		width:20%;
+		float:left;
+		left: 900px;
+		color:white;
+		margin: auto;
+		border: 1px #FF0000;
+		padding: 30px 0px 0px 80px;
+		font-family: "Segoe UI Regular", Segoe, sans-serif;
 }
 
 #email{
-	clear:both;
+	text-align: center;
 	color: white;
-	margin-top: 200px;
+	margin-top: 150px;
+	font-family: "Segoe UI Regular", Segoe, sans-serif;
+	font-size: 22px;
 }
 
 #design_projects{
@@ -172,7 +214,7 @@ padding-right:0px;
     margin: 5px;
     border: 0px solid #ccc;
     float: left;
-    width: 500px;
+    width: 400px;
 }
 
 .gallery:hover {
@@ -181,20 +223,57 @@ padding-right:0px;
 
 .gallery img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
-#myself-pic{
-	position: static;
-	left:200px;
-	margin-left: 100px;
-	margin-right: 10px;
-	padding-left: 100px;
+.icons{
+	text-align: center;
+	margin: auto;
+
+	padding: 10px 0px 0px 0px;
 }
 
-#icons{
-	clear:both;
+.fa {
+	  margin:10px;
+    padding: 35px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
 
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-500px{
+	background-color: #201C1C;
+	color: white;
+}
+.fa:hover {
+    opacity: 0.8;
 }
 
 footer{
