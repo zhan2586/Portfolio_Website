@@ -10,7 +10,7 @@
         -ms-transform: scale(1.5);
         -o-transform: scale(1.5);
         transform: scale(1.5);
-        z-index: 1000;
+        z-index: 1;
         display: block;
     }
     * {
@@ -33,7 +33,7 @@
 var bubble = d3.layout.pack()
     .sort(null)
     .size([diameter, diameter])
-    .padding(1.5);
+    .padding(2.5);
 
 var svg = d3.select("body")
     .append("svg")
@@ -93,7 +93,7 @@ d3.csv("data/data.csv", function(error, data){
         .style({
             "fill":"white",
             "font-family":"Helvetica Neue, Helvetica, Arial, san-serif",
-            "font-size": "12px"
+            "font-size": "10px"
         })
         .style("cursor","default")
         .on("mouseover", function(d) {
