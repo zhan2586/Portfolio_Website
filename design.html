@@ -73,7 +73,10 @@ d3.csv("data/data.csv", function(error, data){
 
               tooltip.transition()
                 .duration(200)
-                .style("visibility", "visible");
+                .style({
+                  "visibility", "visible",
+                  "fill":"white"
+                })
 
                 tooltip.html(d.value);
 	      })
@@ -95,6 +98,7 @@ d3.csv("data/data.csv", function(error, data){
             "fill":"white",
             "font-family":"Helvetica Neue, Helvetica, Arial, san-serif",
             "font-size": "10px"
+
         })
         .style("cursor","default")
         .on("mouseover", function(d) {
