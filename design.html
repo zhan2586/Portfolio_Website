@@ -3,7 +3,6 @@
 <html >
   <head>
      <script type="text/javascript" src="https://cdn.bootcss.com/d3/3.5.17/d3.js"></script>
-     <link href="css/master.css" rel="stylesheet" type="text/css" />
   </head>
   <style type="text/css">
     circle:hover {
@@ -34,7 +33,7 @@
 var bubble = d3.layout.pack()
     .sort(null)
     .size([diameter, diameter])
-    .padding(2.5);
+    .padding(2.0);
 
 var svg = d3.select("body")
     .append("svg")
@@ -46,7 +45,9 @@ var tooltip = d3.select('body').append("div")
 		.style("position", "absolute")
 		.style("z-index", "10")
 		.style("visibility", "hidden")
-		.text("tooltip");
+    .style("fill", "white")
+    .text("tooltip");
+
 
 d3.csv("data/data.csv", function(error, data){
 
@@ -94,7 +95,7 @@ d3.csv("data/data.csv", function(error, data){
         .style({
             "fill":"white",
             "font-family":"Helvetica Neue, Helvetica, Arial, san-serif",
-            "font-size": "10px"
+            "font-size": "12px"
         })
         .style("cursor","default")
         .on("mouseover", function(d) {
