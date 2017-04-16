@@ -1,10 +1,16 @@
+﻿<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<!DOCTYPE html>
-<html >
-  <head>
-     <script type="text/javascript" src="https://cdn.bootcss.com/d3/3.5.17/d3.js"></script>
-  </head>
-  <style type="text/css">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+		<title>Andy Zhang|Portfolio</title>
+		<meta name"viewport" content="width=device-width, initial-scale=1" http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="images/banner.png" />
+		<link href="css/master.css" rel="stylesheet" type="text/css" />
+    <script src="js/design.js"></script>
+		<script type="text/javascript" src="https://cdn.bootcss.com/d3/3.5.17/d3.js"></script>
+</head>
+
+<style type="text/css">
     circle:hover {
         -webkit-transform: scale(1.5);
         -ms-transform: scale(1.5);
@@ -22,8 +28,36 @@
         transform-origin: 50% 50% 0;
     }
 
-  </style>
-  <body>
+</style>
+
+<body>
+
+<div class="container">
+
+<img src="images/banner.png" class="banner"/>
+
+	<nav>
+	<ul>
+ 		<li><a href="home.html">HOME</a></li>
+ 	    <li><a href="showreel.html">SHOWREEL</a></li>
+ 	 	<li><a href="vfx.html">VFX</a></li>
+ 	 	<li><a href="design.html" id="design-menu">DESIGN</a></li>
+	  	<li><a href="photo.html">PHOTO</a></li>
+ 	 	<li><a href="about.html">ABOUT</a></li>
+ 		<li><a href="contact.html">CONTACT</a></li>
+	</ul>
+	</nav>
+
+<!--<div ID="design_projects">
+<ul>
+   <li><a class="mobile-app" href="#">MOBILE APP</a></li>
+   <li><a class="epics" href="#">ASSISTANT DEVICE</a></li>
+   <li><a class="infograph" href="#">INFOGRAPHICS</a></li>
+</ul>
+</div>
+-->
+
+
 
     <script type="text/javascript">
 
@@ -113,4 +147,13 @@ d3.csv("data/data.csv", function(error, data){
 })
     </script>
   </body>
+</html>
+
+<footer>
+<p>&copy;2017 Andy Zhang | All Rights Reserved</p>
+</footer>
+
+
+</div>
+</body>
 </html>
