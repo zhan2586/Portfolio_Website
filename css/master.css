@@ -4,7 +4,7 @@ body{
 
 .container {
     margin: auto;
-    width: 100%;
+    width: 1280px;
     border: 0px solid #73AD21;
     padding: 0px;
 }
@@ -37,7 +37,7 @@ nav ul{
 }
 
 nav li {
-    display:inline-block;
+  display:inline-block;
 	font-family: "Segoe UI Semibold", Segoe, sans-serif;
 	font-size:14px;
 	margin-left:1px;
@@ -90,7 +90,7 @@ nav li a:active {
 }
 
 .showreel{
-	margin: auto;
+	    margin: auto;
 	    width: 52%;
 	    border: 0px solid green;
 	    padding: 0px;
@@ -152,23 +152,44 @@ nav li a:active {
     border: 1px solid #777;
 }
 
-#design_projects li{
-    float:left;
-	list-style:none;
- 	margin:0;
- 	padding:60px 0px 0px 150px;
+/*DESIGN.html*/
+#design-projects{
+	text-align: center;
+	clear: both;
+	position: static;
+  margin-left: 320px;
+	margin-top: 30px;
 }
 
-#design_projects li a {
+#design-projects li{
+  float:left;
+	display:inline-block;
+	font-family: "Segoe UI Semibold", Segoe, sans-serif;
+	font-size:12px;
+	list-style:none;
+ 	margin:0;
+ 	padding-left: 100px;
+}
+
+#design-projects li a {
     color: white;
     text-align: center;
   	text-decoration:inherit
 }
 
-#design_projects li a:hover {
+#design-projects li a:hover {
     color: red;
 }
 
+#bubble-chart{
+	  margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+
+/*ABOUT.html*/
 #myself-pic{
 	float: left;
 	left: 500px;
@@ -193,21 +214,6 @@ nav li a:active {
 	margin-top: 150px;
 	font-family: "Segoe UI Regular", Segoe, sans-serif;
 	font-size: 22px;
-}
-
-#design_projects{
-	display:inline-block;
-font-family: "Segoe UI Semibold", Segoe, sans-serif;
-font-size:13px;
-margin-left:1px;
-margin-right:30px;
-padding-top:46px;
-padding-right:0px;
-}
-
-.mobile-app-content{
-	float:inherit;
-	margin-bottom: 300px;
 }
 
 .gallery {
