@@ -1,0 +1,156 @@
+@media only screen and (max-width: 1920px) {
+    body {
+  	background-color:black;
+	background-image:url('images/cover.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: auto;
+}
+
+.container {
+    margin: auto;
+    border: 0px solid #73AD21;
+    padding: 0px;
+}
+
+.banner{
+	margin:10px 0px 10px 0px;
+	padding:20px 0px 10px 0px;
+}
+
+
+.cover{
+	position: static;
+	margin-top:0px;
+}
+
+nav{
+	float:right;
+}
+
+nav ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+nav li {
+    display:inline-block;
+	font-family: "Segoe UI Semibold", Segoe, sans-serif;
+	font-size:14px;
+	margin-left:1px;
+	margin-right:1px;
+	padding-top:46px;
+	padding-right:30px;
+}
+
+nav li a {
+    color: white;
+    text-align: center;
+  	text-decoration:inherit
+}
+
+nav li a:hover {
+    color: red;
+}
+
+nav li a:active {
+    color: red;
+	opacity: 0.6;
+}
+
+#home-menu{
+	color: red;
+}
+
+#showreel-menu{
+	color: red;
+}
+
+#vfx-menu{
+	color: red;
+}
+
+#design-menu{
+	color: red;
+}
+
+#photo-menu{
+	color: red;
+}
+
+#about-menu{
+	color: red;
+}
+
+#contact-menu{
+	color: red;
+}
+
+/*DESIGN.html*/
+#banner{
+	border:1px solid white;
+}
+#content{
+	border:1px solid white;
+	height:auto;
+}
+#design-projects{
+	text-align: left;
+	width:200px;
+
+  margin-left: 30px;
+	margin-top: 30px;
+	border:1px solid white;
+}
+
+#design-projects li{
+		font-family: "Segoe UI Semibold", Segoe, sans-serif;
+		font-size:12px;
+		margin-bottom: 40px;
+}
+
+#design-projects li a {
+    color: white;
+    text-align: center;
+  	text-decoration:inherit
+}
+
+#design-projects li a:hover {
+    color: red;
+}
+
+#bubble-chart{
+	margin: 0 auto;
+	border: 1px solid #CCCCCC;
+	padding: auto;
+	position: relative;
+	width:500px;
+	margin-top:-175px;
+}
+
+#bubble-chart-title{
+	margin: auto;
+	text-align: center;
+	clear: both;
+	position: static;
+  padding: auto;
+	color:white;
+}
+
+#bubble-chart-info p{
+	color: white;
+	font-family: "Segoe UI Semibold", Segoe, sans-serif;
+	font-size:12px;
+}
+
+footer{
+	text-align: center;
+	position:fixed;
+	bottom:2px;
+	color:gray;
+	opacity:0.6;
+	font-family: "Segoe UI Semibold", Segoe, sans-serif;
+	font-size:13px;
+}
+}

@@ -4,65 +4,70 @@
 <head>
 		<title>Andy Zhang|Portfolio</title>
 		<meta name"viewport" content="width=device-width, initial-scale=1" http-equiv="content-type" content="text/html; charset=utf-8" />
-    <link rel="shortcut icon" href="images/banner.png" />
-		<link href="css/master.css" rel="stylesheet" type="text/css" />
-    <script src="js/design.js"></script>
-		<script type="text/javascript" src="https://cdn.bootcss.com/d3/3.5.17/d3.js"></script>
+        <link rel="shortcut icon" href="images/banner.png" />
+		<link href="css/design.css" rel="stylesheet" type="text/css" />
+     	<script type="text/javascript" src="https://cdn.bootcss.com/d3/3.5.17/d3.js"></script>
 </head>
 
-<style type="text/css">
-       circle:hover {
-        -webkit-transform: scale(1.5);
-        -ms-transform: scale(1.5);
-        -o-transform: scale(1.5);
-        transform: scale(1.5);
-        z-index: 1;
-        display: block;
-    }
-    * {
-        -webkit-transition: all 0.2s ease-in-out;
-        -moz-transition: all 0.2s ease-in-out;
-        -ms-transition: all 0.2s ease-in-out;
-        -o-transition: all 0.2s ease-in-out;
-        transition: all 0.2s ease-in-out;
-        transform-origin: 50% 50% 0;
-    }
-</style>
 
 <body>
 
 <div class="container">
+	<div id="banner">
+    <img src="images/banner.png" class="banner"/>
 
-<img src="images/banner.png" class="banner"/>
+    	<nav>
+    	  <ul>
+    	 		<li><a href="home.html">HOME</a></li>
+    	 	    <li><a href="showreel.html">SHOWREEL</a></li>
+    	 	 	<li><a href="vfx.html">VFX</a></li>
+    	 	 	<li><a href="design.html" id="design-menu">DESIGN</a></li>
+    			<li><a href="photo.html">PHOTO</a></li>
+    	 	 	<li><a href="about.html">ABOUT</a></li>
+    	 		<li><a href="contact.html">CONTACT</a></li>
+    	  </ul>
+    	</nav>
+			</div>
+		<div id='content'>
+    <div id="design-projects">
+    	 <li><a class="infographics" href="#">Infographics</a></li>
+    	 <li><a class="mobile-app" href="#">Mobile App Design</a></li>
+       <li><a class="epics" href="#">EPICS Project</a></li>
+		</div>
 
-	<nav>
-	  <ul>
-	 		<li><a href="home.html">HOME</a></li>
-	 	  <li><a href="showreel.html">SHOWREEL</a></li>
-	 	 	<li><a href="vfx.html">VFX</a></li>
-	 	 	<li><a href="design.html" id="design-menu">DESIGN</a></li>
-			<li><a href="photo.html">PHOTO</a></li>
-	 	 	<li><a href="about.html">ABOUT</a></li>
-	 		<li><a href="contact.html">CONTACT</a></li>
-	  </ul>
-	</nav>
 
-<div ID="design-projects">
-	 <li><a class="infographics" href="#">Infographics</a></li>
-	 <li><a class="mobile-app" href="#">Mobile App Design</a></li>
-   <li><a class="epics" href="#">EPICS Project</a></li>
+    <div id="bubble-chart">
+        <div id="bubble-chart-title">
+            <h4>Minimum Wage Worldwide</h4>
+        </div>
+        <style type="text/css">
+            circle:hover {
+                -webkit-transform: scale(1.6);
+                -ms-transform: scale(1.5);
+                -o-transform: scale(1.5);
+                transform: scale(1.5);
+                z-index: 1;
+                display: block;
+            }
+            * {
+                -webkit-transition: all 0.5s ease-in-out;
+                -moz-transition: all 0.5s ease-in-out;
+                -ms-transition: all 0.5s ease-in-out;
+                -o-transition: all 0.5s ease-in-out;
+                transition: all 0.5s ease-in-out;
+                transform-origin: 50% 50% 0;
+            }
+        </style>
+        <script type="text/javascript" src="js/bubble-chart.js"></script>
+        <div id="bubble-chart-info">
+            <p>In this infographics work, I used the form of bubble chart to gain the insight of different minimum wage of different countries in the world. I used d3.js to create the visualization.</p>
+        </div>
+    </div>
 </div>
 
-<div id="bubble-chart">
-<script type="text/javascript" src="js/bubble-chart.js"></script>
-</div>
-
-</body>
-</html>
-
-<footer>
-<p>&copy;2017 Andy Zhang | All Rights Reserved</p>
-</footer>
+    <footer>
+        <p>&copy;2017 Andy Zhang | All Rights Reserved</p>
+    </footer>
 
 </div>
 

@@ -1,17 +1,29 @@
-body{
-	background-color:black;
+@media only screen and (max-width: 1920px) {
+    body {
+  	background-color:black;
+	background-image:url('images/cover.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: auto;
 }
+
+@media only screen and (max-width: 500px) {
+    body {
+  	background-color:black;
+	background-image:url('images/cover.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: auto;
+}
+
 
 .container {
     margin: auto;
-    width: 1280px;
     border: 0px solid #73AD21;
     padding: 0px;
 }
 
 .banner{
-	width:240px;
-	height:60px;
 	margin:10px 0px 10px 0px;
 	padding:20px 0px 10px 0px;
 }
@@ -23,7 +35,7 @@ h4{
 
 .cover{
 	position: static;
-	margin-top:10px;
+	margin-top:0px;
 }
 
 nav{
@@ -37,7 +49,7 @@ nav ul{
 }
 
 nav li {
-  display:inline-block;
+    display:inline-block;
 	font-family: "Segoe UI Semibold", Segoe, sans-serif;
 	font-size:14px;
 	margin-left:1px;
@@ -58,7 +70,7 @@ nav li a:hover {
 
 nav li a:active {
     color: red;
-		opacity: 0.6;
+	opacity: 0.6;
 }
 
 #home-menu{
@@ -152,17 +164,17 @@ nav li a:active {
     border: 1px solid #777;
 }
 
-/*DESIGN.html*/
+/*DESIGN.html
 #design-projects{
 	text-align: center;
 	clear: both;
 	position: static;
-  margin-left: 320px;
+    margin-left: 350px;
 	margin-top: 30px;
 }
 
 #design-projects li{
-  float:left;
+  	float:left;
 	display:inline-block;
 	font-family: "Segoe UI Semibold", Segoe, sans-serif;
 	font-size:12px;
@@ -181,13 +193,19 @@ nav li a:active {
     color: red;
 }
 
-#bubble-chart{
-	  margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
+#bubble-chart-title{
+	text-align: center;
 }
 
+#bubble-chart{
+	margin: auto;
+	clear: both;
+	float: left;
+	position: static;
+    margin-left: 400px;
+    padding: 10px;
+}
+*/
 
 /*ABOUT.html*/
 #myself-pic{
