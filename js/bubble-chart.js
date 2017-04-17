@@ -1,28 +1,29 @@
 // JavaScript Document
-
 var diameter = 500, //max size of the bubbles
-    color    = d3.scale.category20b(); //color category
+    color = d3.scale.category20(); //color category
 
 var bubble = d3.layout.pack()
     .sort(null)
     .size([diameter, diameter])
-    .padding(2.0);
-
-var svg = d3.select("body")
+    .padding(1.0);
+    
+var svg = d3.select("#bubble-chart")
     .append("svg")
     .attr("width", diameter)
     .attr("height", diameter)
     .attr("class", "bubble");
 
-var tooltip = d3.select('body').append("div")
-		.style("position", "absolute")
-		.style("z-index", "10")
-		.style("visibility", "hidden")
-    .style("fill", "white")
+var tooltip = d3.select('#content').append("div")
+	  .style("position", "absolute")
+	  .style("z-index", "10")
+    .style("color", "white")
+	  .style("visibility", "hidden")
+    .style("border", "1px solid white")
+    .style("fill", "black")
     .text("tooltip");
 
 
-d3.csv("data/data.csv", function(error, data){
+d3.csv("files/data.csv", function(error, data){
 
     //convert numerical values from strings to numbers
     data = data.map(function(d){ d.value = +d["Amount"]; return d; });
@@ -42,14 +43,15 @@ d3.csv("data/data.csv", function(error, data){
         .attr("r", function(d){ return d.r; })
         .attr("cx", function(d){ return d.x; })
         .attr("cy", function(d){ return d.y; })
-        .style("fill", function(d) { return color(d.value); })
+        .style("fill","gray")
         .on("mouseover", function(d) {
-
+              d3.select(this).style("fill", color(d.value));
               tooltip.transition()
                 .duration(200)
-                .style("visibility", "visible");
+                .style("visibility", "visible")
+                .style("background-color",this.style.fill);
+                tooltip.html("$" + d.value);
 
-                tooltip.html(d.value);
 	      })
 	      .on("mousemove", function() {
 	          return tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");
@@ -57,7 +59,8 @@ d3.csv("data/data.csv", function(error, data){
 	      .on("mouseout", function(){
 	      	tooltip.transition()
                 .duration(200)
-                .style("visibility", "hidden");});
+                .style("visibility", "hidden");
+            });
 
     //format the text for each bubble
     bubbles.append("text")
@@ -75,7 +78,7 @@ d3.csv("data/data.csv", function(error, data){
               tooltip.transition()
                 .duration(200)
                 .style("visibility", "visible");
-                tooltip.html(d.value);
+                tooltip.html("$" + d.value);
           }).on("mousemove", function() {
               return tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");
           })
