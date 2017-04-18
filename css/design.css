@@ -24,6 +24,12 @@
 	margin-top:0px;
 }
 
+h4{
+	color: white;
+	text-align: center;
+  font-family: "Segoe UI Semibold", Segoe, sans-serif;
+}
+
 nav{
 	float:right;
 }
@@ -89,10 +95,10 @@ nav li a:active {
 
 /*DESIGN.html*/
 #banner{
-	border:1px solid white;
+	border:0px solid white;
 }
 #content{
-	border:1px solid white;
+	border:0px solid white;
 	height:auto;
 }
 #design-projects{
@@ -101,7 +107,7 @@ nav li a:active {
 
   margin-left: 30px;
 	margin-top: 30px;
-	border:1px solid white;
+	border:0px solid white;
 }
 
 #design-projects li{
