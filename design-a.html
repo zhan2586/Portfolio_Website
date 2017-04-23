@@ -36,8 +36,34 @@
     	</nav>
 	</div>
 
-	<div class="design-content-blank">
-        <p></p>
+<div class="design-content">
+    <div id="bubble-chart">
+        <div id="bubble-chart-title">
+             <h3>Minimum Wage Worldwide 2015</h3>
+        </div>
+        <style type="text/css">
+            circle:hover {
+                        -webkit-transform: scale(1.6);
+                        -ms-transform: scale(1.5);
+                        -o-transform: scale(1.5);
+                        transform: scale(1.5);
+                        z-index: 1;
+                        display: block;
+                    }
+            * {
+                        -webkit-transition: all 0.5s ease-in-out;
+                        -moz-transition: all 0.5s ease-in-out;
+                        -ms-transition: all 0.5s ease-in-out;
+                        -o-transition: all 0.5s ease-in-out;
+                        transition: all 0.5s ease-in-out;
+                        transform-origin: 50% 50% 0;
+                    }
+        </style>
+        <script type="text/javascript" src="js/bubble-chart.js"></script>
+        <div id="bubble-chart-info">
+            <p>In this infographics work, I used the form of bubble chart to gain the insight of different minimum wage of different countries in the world. I used d3.js to create the visualization.</p>
+        </div>
+    </div>
    	</div>
     
 	

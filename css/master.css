@@ -56,6 +56,53 @@ nav li a:active {
 	opacity: 0.6;
 }
 
+#design-menu {
+    background-color: #none;
+    color: white;
+    padding: 6px;
+    font-size: 14px;
+    border: none;   
+}
+
+#design-menu a:hover {
+	color: red;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    border: :1px solid green;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: none;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 6px 1px;
+    text-decoration: none;
+    display: block;
+}
+
+li a:hover, .dropdown:hover #design-menu {
+	color: red;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover #design-menu {
+    background-color: none;
+}
+
 #home-menu{
 	color: red;
 }
@@ -179,6 +226,7 @@ nav li a:active {
     border: 0px solid #73AD21;
 }
 
+
 /*DESIGN.html
 #design-projects{
 	text-align: center;
@@ -238,18 +286,36 @@ nav li a:active {
 
 .about p{
 	position: absolute;
-	margin: 0px 0px 0px 500px;
+	margin: 200px 0px 50px 500px;
 	color: white;	
 	border: 0px solid #FF0000;	
 	font-family: "Segoe UI Regular", Segoe, sans-serif;
 }
 
 #email{
-	text-align: center;
+	text-align: center;	
 	color: white;
-	margin-top: 150px;
-	font-family: "Segoe UI Regular", Segoe, sans-serif;
-	font-size: 22px;
+	margin-top: 280px;
+	padding-bottom: 100px;
+	font-family: "Segoe UI Semibold", Segoe, sans-serif;
+	font-size: 24px;
+}	
+
+#email a:link{
+	color: white
+}
+
+#email a:visit{
+	color: white
+}
+
+#email a:hover{
+	color: red
+}
+
+#email a:active{
+	color: red;
+	opacity: 0.7
 }
 
 .gallery {
