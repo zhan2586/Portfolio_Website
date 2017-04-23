@@ -1,46 +1,28 @@
-@media only screen and (max-width: 1920px) {
-    body {
-  	background-color:black;
-	background-image:url('images/cover.jpg');
-	background-repeat:no-repeat;
-	background-size:cover;
-	height: auto;
+body {
+	background-image: url(../images/cover-g.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
 }
-
-@media only screen and (max-width: 500px) {
-    body {
-  	background-color:black;
-	background-image:url('images/cover.jpg');
-	background-repeat:no-repeat;
-	background-size:cover;
-	height: auto;
-}
-
 
 .container {
-    margin: auto;
-    border: 0px solid #73AD21;
-    padding: 0px;
+	width: 100%;
+	height: auto;
 }
 
 .banner{
-	margin:10px 0px 10px 0px;
-	padding:20px 0px 10px 0px;
+	margin:60px 0px 0px 90px;	
 }
 
 h4{
 	color: white;
 	text-align: center;
-  font-family: "Segoe UI Semibold", Segoe, sans-serif;
-}
-
-.cover{
-	position: static;
-	margin-top:0px;
+    font-family: "Segoe UI Semibold", Segoe, sans-serif;
 }
 
 nav{
 	float:right;
+	margin-top: 45px;
+	margin-right: 90px
 }
 
 nav ul{
@@ -103,24 +85,25 @@ nav li a:active {
 }
 
 .showreel{
-	    margin: auto;
-	    width: 52%;
-	    border: 0px solid green;
-	    padding: 0px;
+	width: 60%;
+	margin: auto;
+	border: 0px solid red;
+}
+
+.showreel iframe{
+	margin: 40px auto;
+	display: block;	
 }
 
 #sheet{
 	text-align: center;
-	margin:20px 0px 0px 0px;
+	margin: auto;
+	padding: 0;
 	font-family: "Segoe UI Light", Segoe, sans-serif;
 }
 
-#sheet a:link {
-    color:gray;
-}
-
 #sheet a:visited {
-    color:gray;
+    color: white;
 }
 
 #sheet a:hover {
@@ -152,17 +135,48 @@ nav li a:active {
     border:0px solid #ccc;
 }*/
 
-.floating-box {
-    display: inline-block;
-    width: 550px;
-    height: 450px;
-    margin: 0px 10px 10px 20px;
-    border: 0px solid #73AD21;
+.vfx-works{	
+ 	margin: auto;
+	width: 20%
+	border:1px solid red;
 }
 
+.vfx-works li {
+	list-style:none;
+  color: white;
+   display:inline-block;
+	font-family: "Segoe UI Semibold", Segoe, sans-serif;
+	font-size:14px;
+}
 
-#video:hover {
-    border: 1px solid #777;
+.vfx-works li a:link {	
+    color: white;
+  }
+
+.vfx-works li a:visited {
+	color: white;
+}
+
+.vfx-works li a:hover {
+    color: red;
+}
+
+.vfx-works li a:active {
+    color: red;
+	opacity: 0.6;
+}
+
+.video-gallery {	
+	margin: 100px auto;
+	float: left;
+	padding-left: 120px;
+	width: 90%	
+}
+
+.video-gallery iframe {
+	margin: 0 auto;    
+    padding: 1px;
+    border: 0px solid #73AD21;
 }
 
 /*DESIGN.html
@@ -209,22 +223,25 @@ nav li a:active {
 */
 
 /*ABOUT.html*/
-#myself-pic{
-	float: left;
-	left: 500px;
-	margin: 50px 20px 20px 30px;
-	padding-left: 400px;
+.about{
+	position: relative;
+	margin: 50px auto;
+	width: 52%;
+	border: 0px solid green;
 }
 
-#bio{
-		width:20%;
-		float:left;
-		left: 900px;
-		color:white;
-		margin: auto;
-		border: 1px #FF0000;
-		padding: 30px 0px 0px 80px;
-		font-family: "Segoe UI Regular", Segoe, sans-serif;
+.about img{	
+	margin-right: 60px;
+	border: 5px solid white;
+	float: left;	
+}
+
+.about p{
+	position: absolute;
+	margin: 0px 0px 0px 500px;
+	color: white;	
+	border: 0px solid #FF0000;	
+	font-family: "Segoe UI Regular", Segoe, sans-serif;
 }
 
 #email{
@@ -253,52 +270,49 @@ nav li a:active {
 
 .icons{
 	text-align: center;
-	margin: auto;
-
-	padding: 10px 0px 0px 0px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	padding-right: 15px;
+	padding-bottom: 10px;
 }
 
 .fa {
-	  margin:10px;
-    padding: 35px;
-    font-size: 30px;
-    width: 20px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+	margin: auto;
+    padding: 10px;   
+    text-decoration: none;   
 }
 
-.fa-facebook {
-  background: #3B5998;
-  color: white;
+.fa-facebook {  
+    color: white;  
 }
 
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
+.fa-twitter {  
+    color: white;
 }
 
 .fa-linkedin {
-  background: #007bb5;
-  color: white;
+    color: white;  
 }
 
 .fa-vimeo {
-  background: #45bbff;
-  color: white;
+    color: white;
 }
 
 .fa-instagram {
-  background: #125688;
-  color: white;
+    color: white;
 }
 
 .fa-500px{
-	background-color: #201C1C;
 	color: white;
 }
+
+.fa-weibo{
+	color: white;
+}
+
 .fa:hover {
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 footer{
