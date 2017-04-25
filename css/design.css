@@ -95,8 +95,8 @@ nav li a:active {
 }
 
 .icons{
-	text-align: center;
-	position: absolute;
+	float: right;
+	position: relative;
 	right: 0px;
 	bottom: 0px;
 	padding-right: 15px;
@@ -141,56 +141,88 @@ nav li a:active {
     opacity: 0.7;
 }
 
+footer{
+	text-align: center;
+	position:static;
+	float: left;
+	bottom:2px;
+	color:gray;
+	opacity:0.6;
+	font-family: "Segoe UI Semibold", Segoe, sans-serif;
+	font-size:13px;
+}
+
+
 /*DESIGN.html*/
-.design-content{
-	border: 1px solid white;
-	margin: 0 auto;
-}
 
-.tab {
-    float: left;
-    border: 1px solid #ccc;    
-    margin-top: 200px;
-    margin-left: 200px;
-}
-
-/* Style the buttons inside the tab */
-.tab button {
-    display: block;
-    background-color: inherit;
+#design-menu {
+    background-color: #none;
     color: white;
-    padding: 22px 16px;
-    width: 100%;
-    text-align: left;
-    transition: 0.3s;
+    padding: 6px;
+    font-size: 14px;
+    border: none;   
 }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
+#design-menu a:hover {
+	color: red;
+}
+
+#design-menu a:active {
+	color: red;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    border: :1px solid green;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: none;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 6px 1px;
+    text-decoration: none;
+    display: block;
+}
+
+li a:hover, .dropdown:hover {
+	color: red;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover #design-menu {
     background-color: none;
 }
 
-/* Create an active/current "tab button" class */
-.tab button.active {
-    background-color: grey;
+.design-content-blank {
+	position: relative;
+	border: 0px solid red;	
+	height: 800px;
 }
 
-/* Style the tab content */
-.tabcontent {
-    float: left;
-    padding: 0px 12px;
-    border: 1px solid #ccc;
-    width: 70%;
-    border-left: none;    
+.design-content{
+	position: static;	
+	height: 100%
 }
 
 #bubble-chart{
-	margin: 0 auto;
-	border: 1px solid #CCCCCC;
-	padding: auto;
-	position: relative;
+	clear: both;
+	margin: 85px auto;
+	border: 2px solid #CCCCCC;
+	padding: auto;	
 	width:500px;
-	margin-top:-175px;
 }
 
 #bubble-chart-title{
@@ -202,19 +234,79 @@ nav li a:active {
 	color:white;
 }
 
-#bubble-chart-info p{
-	color: white;
-	font-family: "Segoe UI Semibold", Segoe, sans-serif;
-	font-size:12px;
+#bubble-chart-info{
+	margin: auto;
+	padding:2px 20px;
 }
 
-footer{
-	text-align: center;
-	position:fixed;
-	bottom:2px;
-	color:gray;
-	opacity:0.6;
-	font-family: "Segoe UI Semibold", Segoe, sans-serif;
-	font-size:13px;
+#bubble-chart-info p{
+	color: white;
+	font-family: "Segoe UI Semibold Light", Segoe, sans-serif;
+	font-size:14px;
 }
+
+.mobile-app{
+	margin: 30px auto;
+	width: 70%;
+	border: 0px solid red
+}
+
+.mobile-app h4{
+	margin: 10px auto;
+	padding: 20px;
+	width: 40%;
+}
+
+.mobile-app a {
+	color: white;
+}
+
+.mobile-app a:link {
+	color: white;
+}
+
+.mobile-app a:visit {
+	color: white;
+}
+
+.mobile-app a:hover{
+	color: red;
+}
+
+.mobile-app a:active {    
+	opacity: 0.7;
+}
+
+#mobile-app-img{
+	width:80%;
+	margin: auto;	
+	border: 0px solid pink
+}
+
+.mobile-app img{
+	margin: auto 17px;
+	padding: 10px 1px;
+	width: 220px; 
+	height: 370px;
+	border: none;
+}
+
+
+.epics{
+	margin: 250px auto;
+	padding-bottom: 147px;
+	width: 40%;
+	
+}
+
+.epics a {
+	color:white;
+}
+
+.epics a:hover {
+	color:red;
+}
+
+.epics a:active {
+	opacity: 0.7;
 }
