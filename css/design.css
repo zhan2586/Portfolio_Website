@@ -3,8 +3,6 @@ body {
 	background-size:cover;
     background-repeat: no-repeat;
 	background-opacity: 0.1;
-
-
 }
 
 .container {
@@ -14,7 +12,7 @@ body {
 }
 
 .banner{
-	margin:60px 0px 0px 90px;	
+	margin:40px 0px 0px 90px;
 }
 
 h3{
@@ -105,20 +103,20 @@ nav li a:active {
 
 .fa {
 	margin: auto;
-    padding: 10px;   
-    text-decoration: none;   
+    padding: 10px;
+    text-decoration: none;
 }
 
-.fa-facebook {  
-    color: white;  
+.fa-facebook {
+    color: white;
 }
 
-.fa-twitter {  
+.fa-twitter {
     color: white;
 }
 
 .fa-linkedin {
-    color: white;  
+    color: white;
 }
 
 .fa-vimeo {
@@ -160,7 +158,7 @@ footer{
     color: white;
     padding: 6px;
     font-size: 14px;
-    border: none;   
+    border: none;
 }
 
 #design-menu a:hover {
@@ -208,12 +206,12 @@ li a:hover, .dropdown:hover {
 
 .design-content-blank {
 	position: relative;
-	border: 0px solid red;	
+	border: 0px solid red;
 	height: 800px;
 }
 
 .design-content{
-	position: static;	
+	position: static;
 	height: 100%
 }
 
@@ -221,7 +219,7 @@ li a:hover, .dropdown:hover {
 	clear: both;
 	margin: 85px auto;
 	border: 2px solid #CCCCCC;
-	padding: auto;	
+	padding: auto;
 	width:500px;
 }
 
@@ -273,20 +271,20 @@ li a:hover, .dropdown:hover {
 	color: red;
 }
 
-.mobile-app a:active {    
+.mobile-app a:active {
 	opacity: 0.7;
 }
 
 #mobile-app-img{
 	width:80%;
-	margin: auto;	
+	margin: auto;
 	border: 0px solid pink
 }
 
 .mobile-app img{
 	margin: auto 17px;
 	padding: 10px 1px;
-	width: 220px; 
+	width: 220px;
 	height: 370px;
 	border: none;
 }
@@ -296,7 +294,7 @@ li a:hover, .dropdown:hover {
 	margin: 250px auto;
 	padding-bottom: 147px;
 	width: 40%;
-	
+
 }
 
 .epics a {

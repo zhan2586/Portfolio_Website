@@ -1,5 +1,5 @@
 body {
-	background-image: url(../images/cover-g.jpg);
+    background-image: url(../images/cover-g.jpg);
     background-size:cover;
     background-repeat: no-repeat;
 }
@@ -10,7 +10,7 @@ body {
 }
 
 .banner{
-	margin:60px 0px 0px 90px;
+	margin: 40px 0px 0px 90px;
 }
 
 h4{
@@ -61,7 +61,6 @@ nav li a:active {
     color: white;
     padding: 6px;
     font-size: 14px;
-    border: none;
 }
 
 #design-menu a:hover {
