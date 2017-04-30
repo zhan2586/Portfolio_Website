@@ -56,52 +56,6 @@ nav li a:active {
 	opacity: 0.6;
 }
 
-#design-menu {
-    background-color: #none;
-    color: white;
-    padding: 6px;
-    font-size: 14px;
-}
-
-#design-menu a:hover {
-	color: red;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-    margin: 0;
-    border: :1px solid green;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: none;
-    min-width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: white;
-    padding: 6px 1px;
-    text-decoration: none;
-    display: block;
-}
-
-li a:hover, .dropdown:hover #design-menu {
-	color: red;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover #design-menu {
-    background-color: none;
-}
-
 #home-menu{
 	color: red;
 }
@@ -168,58 +122,6 @@ li a:hover, .dropdown:hover #design-menu {
 #sheet a:active {
     color:red;
 }
-/*#video-a {
-	position:relative;
-	float:left;
-    margin: 30px 0px 10px 200px;
-    border:0px solid #ccc;
-}
-
-#video-b {
-	position:relative;
-	float:left;
-    margin: 30px 0px 10px 10px;
-    border:0px solid #ccc;
-}
-
-#video-c {
-	clear:both;
-	position:relative;
-	float:left;
-    margin: 10px 0px 10px 200px;
-    border:0px solid #ccc;
-}*/
-
-.vfx-works{
- 	margin: auto;
-	width: 20%
-	border:1px solid red;
-}
-
-.vfx-works li {
-	list-style:none;
-  color: white;
-   display:inline-block;
-	font-family: "Segoe UI Semibold", Segoe, sans-serif;
-	font-size:14px;
-}
-
-.vfx-works li a:link {
-    color: white;
-  }
-
-.vfx-works li a:visited {
-	color: white;
-}
-
-.vfx-works li a:hover {
-    color: red;
-}
-
-.vfx-works li a:active {
-    color: red;
-	opacity: 0.6;
-}
 
 .video-gallery {
 	margin: 100px auto;
@@ -233,50 +135,6 @@ li a:hover, .dropdown:hover #design-menu {
     padding: 1px;
     border: 0px solid #73AD21;
 }
-
-
-/*DESIGN.html
-#design-projects{
-	text-align: center;
-	clear: both;
-	position: static;
-    margin-left: 350px;
-	margin-top: 30px;
-}
-
-#design-projects li{
-  	float:left;
-	display:inline-block;
-	font-family: "Segoe UI Semibold", Segoe, sans-serif;
-	font-size:12px;
-	list-style:none;
- 	margin:0;
- 	padding-left: 100px;
-}
-
-#design-projects li a {
-    color: white;
-    text-align: center;
-  	text-decoration:inherit
-}
-
-#design-projects li a:hover {
-    color: red;
-}
-
-#bubble-chart-title{
-	text-align: center;
-}
-
-#bubble-chart{
-	margin: auto;
-	clear: both;
-	float: left;
-	position: static;
-    margin-left: 400px;
-    padding: 10px;
-}
-*/
 
 /*ABOUT.html*/
 .about{
@@ -415,8 +273,8 @@ footer{
 	text-align: center;
 	position:fixed;
 	bottom:2px;
-	color:gray;
-	opacity:0.6;
+	color:lightgray;
+	opacity: 0.6;
 	font-family: "Segoe UI Semibold", Segoe, sans-serif;
-	font-size:13px;
+	font-size:12px;
 }
