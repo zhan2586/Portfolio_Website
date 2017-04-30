@@ -302,6 +302,26 @@ li a:hover, .dropdown:hover #design-menu {
 	font-family: "Segoe UI Regular", Segoe, sans-serif;
 }
 
+.about p a{
+  color: white;
+}
+
+.about p a:link{
+  color: white;
+}
+
+.about p a:visited{
+  color: white;
+}
+
+.about p a:hover{
+  color: red;
+}
+
+.about p a:active{
+  color: red;
+}1
+
 #email{
 	text-align: center;
 	color: white;
