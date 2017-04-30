@@ -141,7 +141,7 @@ nav li a:active {
 	position: static;
 	margin: 50px auto;
 	width: 52%;
-	border: 0px solid green;
+	border: 2px solid green;
 }
 
 .about img{
@@ -152,11 +152,11 @@ nav li a:active {
 
 .about p{
 	position: static;
-	padding-left: 380px;
+	margin-left: 480px;
 	width: 400px;
 	height: 300px;
 	color: white;
-	border: 0px solid #FF0000;
+	border: 1px solid #FF0000;
 	font-family: "Segoe UI Regular", Segoe, sans-serif;
 }
 
