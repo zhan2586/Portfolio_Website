@@ -4,43 +4,93 @@
 <head>
   <title>Andy Zhang | Portfolio</title>
   <meta name"viewport" content="width=device-width, initial-scale=1" http-equiv="content-type" content="text/html; charset=utf-8" />
-  <link rel="shortcut icon" href="images/avatar.jpg" />
+    <link rel="shortcut icon" href="images/avatar.jpg" />
   <link href="css/master.css" rel="stylesheet" type="text/css" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    function getRandomSize(min, max) {
+  return Math.round(Math.random() * (max - min) + min);
+}
+
+var allImages = "";
+
+for (var i = 0; i < 35; i++) {
+  var width = getRandomSize(200, 100);
+  var height =  getRandomSize(200, 400);
+  allImages += '<img src="images\photo\IMG_0224.jpg">';
+}
+
+$('#photo-gallery').append(allImages);
+  </script>
 </head>
 <body>
 
-<div class="container">
-
   <img src="images/banner.png" class="banner"/>
 
-    <nav>
-      <ul>
-          <li><a href="showreel.html" id="showreel-menu">SHOWREEL</a></li>
-          <li><a href="vfx.html">VFX</a></li>
-          <li><a href="photo.html">PHOTO</a></li>
-          <li><a href="blog.html">BLOG</li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-        </ul>
+     <nav>     
+      <li><a href="showreel.html">SHOWREEL</a></li>
+      <li><a href="vfx.html">VFX</a></li>
+      <li><a href="photo.html" id="photo-menu">PHOTO</a></li>
+      <li><a href="blog.html">BLOG</li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="contact.html">CONTACT</a></li>       
     </nav>
+
+<div class="container">
+
+<div id="photo-gallery">
+  <img src="images\photo\IMG_0224.jpg">
+  <img src="images\photo\IMG_0025(PS).jpg">
+  <img src="images\photo\IMG_0283(PS).jpg">
+  <img src="images\photo\IMG_0447.jpg">
+  <img src="images\photo\IMG_9896.jpg">
+  <img src="images\photo\IMG_8083(PS).jpg">
+  <img src="images\photo\_MG_0776(PS2).jpg">
+  <img src="images\photo\_MG_0841(PS).jpg">
+  <img src="images\photo\_MG_0967(PS).jpg">
+  <img src="images\photo\_MG_1127(PS).jpg">
+  <img src="images\photo\_MG_1331(PS).jpg">
+  <img src="images\photo\_MG_1377(PS).jpg">
+  <img src="images\photo\_MG_7900(PS).jpg">
+  <img src="images\photo\_MG_7933(PS).jpg">
+  <img src="images\photo\_MG_8016(PS)_1.jpg">
+  <img src="images\photo\_MG_8753(PS).jpg">
+  <img src="images\photo\_MG_9451(PS).jpg">
+  <img src="images\photo\IMG_0070(PS).jpg">
+  <img src="images\photo\IMG_0061(PS).jpg">
+  <img src="images\photo\IMG_0075(PS).jpg">
+  <img src="images\photo\IMG_0224.jpg">
+  <img src="images\photo\IMG_0283(PS).jpg">
+  <img src="images\photo\IMG_0325(PS).jpg">
+  <img src="images\photo\IMG_0349(PS).jpg">
+  <img src="images\photo\IMG_0447(PS).jpg">
+  <img src="images\photo\IMG_9992(PS4).jpg">
+  <img src="images\photo\IMG_8095(PS).jpg">
+  <img src="images\photo\IMG_5298(PS).jpg">
+  <img src="images\photo\IMG_5236(PS).jpg">
+   <img src="images\photo\IMG_3512(PS).jpg">.
+    <img src="images\photo\IMG_5220(PS).jpg">
+      <img src="images\photo\IMG_5183(PS).jpg">
+        <img src="images\photo\IMG_3389(PS).jpg">
+
+</div>
 
   
 </div>
 
-<div class="icons">
-  <a href="https://www.facebook.com/lawrence.zhang.52" class="fa fa-facebook" target="_blank"></a>
-  <a href="https://twitter.com/zhangvisual" class="fa fa-twitter" target="_blank"></a>
-  <a href="https://vimeo.com/zhangvisual" class="fa fa-vimeo" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/wenyu-zhang-762a35b7/" class="fa fa-linkedin" target="_blank"></a>
-  <a href="http://www.instagram.com/zhangvisual" class="fa fa-instagram" target="_blank"></a>
-  <a href="http://500px.com/zhangvisual" class="fa fa-500px" target="_blank"></a>
-  <a href="http://weibo.com/2775542052" class="fa fa-weibo" target="_blank"></a>
-</div>
-
 <footer>
-<p>&copy;2017 Wenyu Zhang | All Rights Reserved</p>
+  <p>&copy;2017 Wenyu Zhang | All Rights Reserved</p>
+  <div class="icons">
+    <a href="https://www.facebook.com/lawrence.zhang.52" class="fa fa-facebook" target="_blank"></a>
+    <a href="https://twitter.com/zhangvisual" class="fa fa-twitter" target="_blank"></a>
+    <a href="https://vimeo.com/zhangvisual" class="fa fa-vimeo" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/wenyu-zhang-762a35b7/" class="fa fa-linkedin" target="_blank"></a>
+    <a href="http://www.instagram.com/zhangvisual" class="fa fa-instagram" target="_blank"></a>
+    <a href="http://500px.com/zhangvisual" class="fa fa-500px" target="_blank"></a>
+    <a href="http://weibo.com/2775542052" class="fa fa-weibo" target="_blank"></a>
+  </div>
 </footer>
+
 
 
 </body>
