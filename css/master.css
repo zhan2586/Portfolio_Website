@@ -28,6 +28,7 @@ h4{
 
 .banner{
 	position: absolute;
+	width: 300px;
 	margin: 40px auto;
 	padding-left: 280px;
 	border: 0px solid gray
@@ -37,9 +38,10 @@ h4{
 nav{
 	clear: both;
 	position: static;
-	margin-left: 500px;
+	margin: 0 auto;
+	
 	padding-top: 80px;
-	padding-left: 400px;
+	padding-left: 900px;
 	border: 0px solid white;
 	width:600px;
 }
@@ -184,7 +186,7 @@ a:active {
 /*ABOUT.html*/
 .about{
 	position:static;
-	margin: 60px auto;
+	margin: 70px auto;
 	width: 900px;
 	height: auto;
 	border: 0px solid green;
@@ -205,6 +207,7 @@ a:active {
 	color: white;
 	border: 0px solid #FF0000;
 	font-family: Arial Unicode MS, Arial, Helvetica, sans-serif;
+	font-size: 17px;
 }
 
 
