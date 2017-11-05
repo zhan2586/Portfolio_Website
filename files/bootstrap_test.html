@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+	
+	#parent #popup {
+	display: none;
+	}
+
+	#parent:hover #popup {
+	display: block;
+	}
+}
+  </style>
+  <script>
+  var e = document.getElementById('parent');
+e.onmouseover = function() {
+  document.getElementById('popup').style.display = 'block';
+}
+e.onmouseout = function() {
+  document.getElementById('popup').style.display = 'none';
+}
+</script>
+</head>
+<body>
+
+
+
+<!--<div class="container bg-3 text-center">    
+	   <div class="row">
+	    <div class="col-sm-6">
+	      <p>Some text..</p>
+	      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+	    </div>
+	    <div class="col-sm-6"> 
+	      <p>Some text..</p>
+	      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+	    </div>   
+	  </div>
+	</div><br>
+
+	<div class="container bg-3 text-center">    
+	  <div class="row">
+	    <div class="col-sm-6">
+	      <p>Some text..</p>
+	      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+	    </div>
+	    <div class="col-sm-6"> 
+	      <p>Some text..</p>
+	      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+	    </div>   
+	  </div>
+	</div>
+-->
+<div id="parent">
+This is the main container.
+<div id="popup" style="display: none">some text here</div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
