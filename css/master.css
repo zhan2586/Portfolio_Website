@@ -201,6 +201,7 @@ about a:active {
 
 .works-title {
 	position: absolute;
+	margin: 0 auto;
 	top: 0px;
     bottom: 0px;
     left: 0px;
@@ -211,8 +212,11 @@ about a:active {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	font-family: "Segoe UI Regular", Segoe, sans-serif;
+	font-size: 18px;
 	border: 0px solid yellow
 }
+
 
 .works-title-cover:hover .works-title {
 	visibility: visible;
