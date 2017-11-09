@@ -14,9 +14,11 @@ h4{
 
 .container {
 	position: absolute;
-	margin: 140px auto;
+	margin: auto;
+	margin-top: 150px;
+	margin-bottom: 350px;
 	width: 100%;
-	height: 100%;
+	height: 70%;
 	border: 0px solid yellow;
 	animation: fadein 1s;
 	z-index : 0.9
@@ -157,6 +159,33 @@ about a:active {
 	border: 0px solid pink
 }
 
+!#home-img img{
+	display: block;
+	margin: 66px auto;
+}
+
+.home-title-cover {
+	margin: 0px auto;
+	margin-top: 80px;
+	display: table;
+	position: relative;	
+	width: 1000px;
+	height: 563px;
+	border: 0px solid pink
+}
+
+.home-title-cover p {
+	font-family: "Segoe UI Regular", Segoe, sans-serif;
+	font-size: 23px;
+	text-align: center; 
+
+}
+
+.home-title-cover:hover .works-title {
+	visibility: visible;
+	opacity: 0.9
+}
+
 #showreel{	
 	margin: 70px auto;
 	border: 0px solid pink
@@ -176,9 +205,9 @@ about a:active {
 }
 
 /*WORKS*/
-.works-cover {		
-	margin: 80px auto;
-	padding-bottom: 100px;
+.works-cover {
+	position: relative;
+	margin: 40px auto;
 	width: 1002px;
 	border: 0px solid cyan;
 	z-index: 0.7;
@@ -193,7 +222,7 @@ about a:active {
 
 .works-title-cover > *{
 	float: left;
-	position: relative;
+	position: relative;	
 	width: 500px;
 	height: 250px;	
 	border: 0px solid pink
@@ -216,7 +245,6 @@ about a:active {
 	font-size: 18px;
 	border: 0px solid yellow
 }
-
 
 .works-title-cover:hover .works-title {
 	visibility: visible;
@@ -362,10 +390,10 @@ about a:active {
 	width: 330px;	
 	color: white;
 	border: 0px solid #FF0000;
-	font-family: "Segoe UI Light", Segoe, sans-serif;
+	font-family: "Segoe UI Regular", Segoe, sans-serif;
 	font-size: 15px;
 	text-align: justify;
-	line-height: 140%;
+	line-height: 139%;
 }
 
 #resume-icon {
