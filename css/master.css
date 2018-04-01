@@ -272,15 +272,30 @@ a:active{
 	border: 0px solid red
 }
 
+/*DESIGN*/
+#mobile-app-img{
+	width: 90%;
+	margin: auto;
+	border: 0px solid pink
+}
+
+#mobile-app-img img{
+	margin: auto 17px;
+	padding: 10px 1px;
+	width: 220px;
+	height: 370px;
+	border: none;
+}
+
 
 /*photo.html*/
 #photo-gallery {
 	margin: 60px;
 	line-height: 0;   
     -webkit-column-count: 3;
-    -webkit-column-gap:   0px; 
-    column-count:         3;
-    column-gap:           0px;  
+    -webkit-column-gap: 0px; 
+    column-count: 3;
+    column-gap: 0px;  
 }
 
 #photo-gallery img {
