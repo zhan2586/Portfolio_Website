@@ -77,7 +77,7 @@ a:visited {
 
 a:hover {
 	color: lightgray;
-	!animation: 0.5s;
+	/*!animation: 0.5s;*/
 }
 
 a:active{
@@ -109,10 +109,10 @@ a:active{
 	border: 0px solid pink
 }
 
-!#home-img img{
+/*!#home-img img{
 	display: block;
 	margin: 66px auto;
-}
+}*/
 
 .home-title-cover {
 	margin: 0px auto;
