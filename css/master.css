@@ -326,13 +326,13 @@ a:active{
 
 #bio {
 	position: relative;
-	margin: 0px 0px 0px 460px;
+	margin: 0px 0px 0px 400px;
 	padding: 0px 0px;
 	width: 330px;	
 	color: white;
 	border: 0px solid cyan ;
 	font-family: "Segoe UI Regular", Segoe, sans-serif;
-	font-size: 13px;
+	font-size: 15px;
 	text-align: justify;
 	line-height: 120%;
 }
@@ -345,8 +345,8 @@ a:active{
 #resume-icon {
 	position: relative;	
 	float: left;
-	padding:70px 0px 0px 0px;
-	margin-left:-30px;
+	padding: 10px 0px 0px 0px;
+	margin-left: -30px;
 	border: 0px solid pink;
 }
 
@@ -355,7 +355,7 @@ a:active{
 	float:left;
 	border: 0px solid yellow;	
 	padding-left: 160px;
-	padding-top: 80px;
+	padding-top: 20px;
 	font-family: "Segoe UI Regular", Segoe, sans-serif;
 	font-size: 14px;
 }
@@ -364,9 +364,9 @@ a:active{
 	text-align: center;
 	display: block;
 	color: white;
-	margin: 280px auto;
+	margin: 70px auto;
 	font-family: "Segoe UI Regular", Segoe, sans-serif;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 
