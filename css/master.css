@@ -333,8 +333,8 @@ a:active{
 	border: 0px solid cyan ;
 	font-family: "Segoe UI Regular", Segoe, sans-serif;
 	font-size: 15px;
-	text-align: justify;
-	line-height: 120%;
+	text-align: left;
+	line-height: 140%;
 }
 
 #bio a:link
